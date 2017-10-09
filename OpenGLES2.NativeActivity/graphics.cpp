@@ -202,10 +202,10 @@ bool engine::load_shader (const std::vector <char> & data, int type)
 		if (stat)
 		{
 			glGetShaderInfoLog (* handle, stat + 1, &stat, const_cast <GLchar *> (str.data ()));
-			log_error (str);
+			loge ("%s\n", str.c_str ());
 		}
 		else
-			log_error ("Unknown shader error.");
+			loge ("Unknown shader error.");
 
 		glDeleteShader (* handle);
 
