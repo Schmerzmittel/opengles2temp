@@ -23,10 +23,10 @@
 #include <android/sensor.h>
 #include "android_native_app_glue.h"
 
-#define logv(...) ((void) __android_log_print (ANDROID_LOG_VERBOSE, "net.schmzmtl.has", __VA_ARGS__))
-#define logi(...) ((void) __android_log_print (ANDROID_LOG_INFO, "net.schmzmtl.has", __VA_ARGS__))
-#define logw(...) ((void) __android_log_print (ANDROID_LOG_WARN, "net.schmzmtl.has", __VA_ARGS__))
-#define loge(...) ((void) __android_log_print (ANDROID_LOG_ERROR, "net.schmzmtl.has", __VA_ARGS__))
+#define logv(...) ((void) __android_log_print (ANDROID_LOG_VERBOSE, "net.schmzmtl.opengles2", __VA_ARGS__))
+#define logi(...) ((void) __android_log_print (ANDROID_LOG_INFO, "net.schmzmtl.opengles2", __VA_ARGS__))
+#define logw(...) ((void) __android_log_print (ANDROID_LOG_WARN, "net.schmzmtl.opengles2", __VA_ARGS__))
+#define loge(...) ((void) __android_log_print (ANDROID_LOG_ERROR, "net.schmzmtl.opengles2", __VA_ARGS__))
 
 void log_information (const std::string & log);
 void log_warning (const std::string & log);
