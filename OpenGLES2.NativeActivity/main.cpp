@@ -39,17 +39,17 @@ std::vector <char> read_asset (const std::string & fname)
 
 void log_information (const std::string & log)
 {
-	__android_log_print (ANDROID_LOG_INFO, "net.schmzmtl.has", "%s\n", log.c_str ());
+	__android_log_print (ANDROID_LOG_INFO, "net.schmzmtl.opengles2", "%s\n", log.c_str ());
 }
 
 void log_warning (const std::string & log)
 {
-	__android_log_print (ANDROID_LOG_WARN, "net.schmzmtl.has", "%s\n", log.c_str ());
+	__android_log_print (ANDROID_LOG_WARN, "net.schmzmtl.opengles2", "%s\n", log.c_str ());
 }
 
 void log_error (const std::string & log)
 {
-	__android_log_print (ANDROID_LOG_ERROR, "net.schmzmtl.has", "%s\n", log.c_str ());
+	__android_log_print (ANDROID_LOG_ERROR, "net.schmzmtl.opengles2", "%s\n", log.c_str ());
 }
 
 void engine::handle_cmd (int32_t cmd)
