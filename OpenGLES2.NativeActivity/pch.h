@@ -28,10 +28,6 @@
 #define logw(...) ((void) __android_log_print (ANDROID_LOG_WARN, "net.schmzmtl.opengles2", __VA_ARGS__))
 #define loge(...) ((void) __android_log_print (ANDROID_LOG_ERROR, "net.schmzmtl.opengles2", __VA_ARGS__))
 
-void log_information (const std::string & log);
-void log_warning (const std::string & log);
-void log_error (const std::string & log);
-
 double get_time ();
 
 class engine;
